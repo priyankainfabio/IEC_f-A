@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IEC School of Art & Fashion</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- TOP CONTACT BAR -->
+  <div class="top-strip">
+    <div class="container top-strip-inner">
+      <div class="top-left">
+        <span>📞 +977 9801836583</span>
+        <span>✉️ info@iecsaf.com</span>
+      </div>
+      <div class="top-right">
+        <span>Admissions Open 2025–26</span>
+        <a href="#admission">Apply Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER / NAVBAR -->
+  <header class="main-header">
+    <div class="container header-inner">
+      <a href="#" class="brand">
+        <img src="iec-logo.png" alt="IEC School of Art & Fashion Logo">
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#">Home</a>
+        <a href="#about">About Us</a>
+
+        <div class="dropdown">
+          <a href="#courses">Courses ▾</a>
+          <div class="dropdown-menu">
+            <a href="#courses">Fashion & Marketing Diploma</a>
+            <a href="#courses">Interior & Product Design</a>
+            <a href="#courses">Short Courses</a>
+            <a href="#courses">Boutique / Styling</a>
+          </div>
+        </div>
+
+        <a href="#team">Our Team</a>
+        <a href="#gallery">Coverage</a>
+        <a href="#placements">Students Corner</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="#">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#courses">Courses</a>
+      <a href="#team">Our Team</a>
+      <a href="#gallery">Coverage</a>
+      <a href="#placements">Students Corner</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- HERO SLIDER -->
+  <section class="hero">
+    <div class="hero-slide active" style="background-image:url('iec-video-thumbnail.jpg');"></div>
+    <div class="hero-slide" style="background-image:url('s1.jpg');"></div>
+    <div class="hero-slide" style="background-image:url('img3.webp');"></div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <span class="hero-mini">Nepal's No.1 Fashion & Interior School</span>
+      <h1>Best Fashion Design Course in Kathmandu</h1>
+      <p>Build your career in fashion, styling, interior design, portfolio creation, branding and creative entrepreneurship with IEC School of Art & Fashion.</p>
+      <div class="hero-actions">
+        <a href="#admission" class="btn btn-primary">Apply Now</a>
+        <a href="#courses" class="btn btn-white">View Courses</a>
+      </div>
+    </div>
+
+    <button class="slider-arrow prev" id="prevSlide">‹</button>
+    <button class="slider-arrow next" id="nextSlide">›</button>
+  </section>
+
+  <!-- FLOATING ENQUIRY FORM -->
+  <aside class="enquiry-box" id="enquiryBox">
+    <button class="enquiry-close" id="closeEnquiry">×</button>
+    <h3>For Admission</h3>
+    <input type="text" placeholder="Name">
+    <input type="tel" placeholder="Mobile Number">
+    <input type="email" placeholder="Email">
+    <select>
+      <option>Select Course</option>
+      <option>Fashion & Marketing Diploma-12 Months/6 Months</option>
+      <option>Interior & Product Design-12 Months Diploma</option>
+      <option>Fashion Styling</option>
+      <option>Short Course</option>
+    </select>
+    <textarea placeholder="Message"></textarea>
+    <button class="form-submit">Submit</button>
+  </aside>
+
+  <button class="enquiry-tab" id="openEnquiry">Enquiry</button>
+
+  <!-- EXPERIENCE SECTION -->
+<section class="experience-section">
+  <div class="container experience-grid">
+
+    <div class="experience-badge">
+      <img src="img4 28yrs.webp" alt="28 Years Building Career">
+    </div>
+
+    <div class="experience-content">
+      <span class="section-kicker">28 Years Of Excellence</span>
+
+      <h2>Building Creative Careers Since 1997</h2>
+
+      <p>
+        IEC School of Art & Fashion has been shaping creative professionals for over 28 years with practical education, portfolio development, fashion exposure, and industry-focused mentorship.
+      </p>
+
+      <div class="experience-points">
+        <div>
+          <h3>15,000+</h3>
+          <p>Students Trained</p>
+        </div>
+
+        <div>
+          <h3>95%</h3>
+          <p>Placement Support</p>
+        </div>
+
+        <div>
+          <h3>Industry</h3>
+          <p>Focused Curriculum</p>
+        </div>
+      </div>
+
+      <a href="#admission" class="btn btn-primary">
+        Explore Courses
+      </a>
+    </div>
+
+  </div>
+</section>
+
+  <!-- WELCOME SECTION -->
+  <section class="welcome" id="about">
+    <div class="container welcome-grid">
+      <div class="welcome-text">
+        <span class="section-kicker">Welcome To IEC</span>
+        <h2>IEC School of Art & Fashion</h2>
+        <p>IEC School of Art & Fashion is one of Nepal’s leading creative institutions for fashion and interior education. It is designed for students who want practical, career-focused learning with exposure to the real creative industry.</p>
+        <p>Students learn through design assignments, studio practice, portfolio shoots, workshops, industry visits, fashion shows and mentorship.</p>
+        <a href="#about" class="read-more">Read more</a>
+      </div>
+
+      <div class="video-card" id="videoCard">
+  <img src="iec-video-thumbnail.jpg" alt="IEC fashion video preview">
+  <button class="play-btn" id="playVideo">▶</button>
+</div>
+
+<div class="video-modal" id="videoModal">
+  <button class="video-close" id="closeVideo">×</button>
+  <video id="iecVideo" controls>
+    <source src="iec-video.mp4" type="video/mp4">
+  </video>
+</div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="why">
+    <div class="container">
+      <div class="center-head">
+        <span class="section-kicker">Why Choose Us?</span>
+        <h2>Why Students Choose IEC</h2>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-item">
+          <span>01</span>
+          <h3>Best Courses</h3>
+          <p>Career-oriented programs for fashion, marketing, interiors, styling and creative entrepreneurship.</p>
+        </div>
+        <div class="why-item">
+          <span>02</span>
+          <h3>Best Faculties</h3>
+          <p>Experienced and supportive mentors help students upgrade their skills and confidence.</p>
+        </div>
+        <div class="why-item">
+          <span>03</span>
+          <h3>Best Facilities</h3>
+          <p>Creative labs, design studios, portfolio support, workshops and industry-led learning spaces.</p>
+        </div>
+        <div class="why-item">
+          <span>04</span>
+          <h3>Best Atmosphere</h3>
+          <p>A creative academic environment that helps students explore their personality and talents.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section class="courses" id="courses">
+    <div class="container">
+      <div class="center-head">
+        <span class="section-kicker">Our Courses</span>
+        <h2>Career-Oriented Creative Courses</h2>
+        <p>IEC offers diploma and short-term programs to build careers in fashion and interior industries.</p>
+      </div>
+
+      <div class="course-grid">
+        <article class="course-card">
+          <div class="course-img">
+            <img src="img1.webp" alt="">
+            <a href="#admission">Apply Now</a>
+          </div>
+          <div class="course-content">
+            <h3>Fashion & Marketing Diploma</h3>
+            <ul>
+              <li>Duration 12 Months / 6 Months</li>
+              <li>Portfolio Shoot</li>
+              <li>Internship Opportunities</li>
+            </ul>
+            <a class="join-link" href="#admission">To Join Apply Now</a>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-img">
+            <img src="img6.webp" alt="">
+            <a href="#admission">Apply Now</a>
+          </div>
+          <div class="course-content">
+            <h3>Interior & Product Design</h3>
+            <ul>
+              <li>Duration 12 Months</li>
+              <li>Studio Projects</li>
+              <li>Field Visits</li>
+            </ul>
+            <a class="join-link" href="#admission">To Join Apply Now</a>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-img">
+            <img src="img2.webp" alt="">
+            <a href="#admission">Apply Now</a>
+          </div>
+          <div class="course-content">
+            <h3>Fashion Styling Certificate</h3>
+            <ul>
+              <li>Duration 6 Months</li>
+              <li>Styling Practice</li>
+              <li>Creative Direction</li>
+            </ul>
+            <a class="join-link" href="#admission">To Join Apply Now</a>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-img">
+            <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=1000&auto=format&fit=crop" alt="">
+            <a href="#admission">Apply Now</a>
+          </div>
+          <div class="course-content">
+            <h3>Boutique Management</h3>
+            <ul>
+              <li>Duration 6 Months</li>
+              <li>Pattern & Boutique Skills</li>
+              <li>Business Basics</li>
+            </ul>
+            <a class="join-link" href="#admission">To Join Apply Now</a>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-img">
+            <img src="img3.webp" alt="">
+            <a href="#admission">Apply Now</a>
+          </div>
+          <div class="course-content">
+            <h3>Fashion Design Short Course</h3>
+            <ul>
+              <li>Duration 3 Months</li>
+              <li>Practical Learning</li>
+              <li>Creative Skills</li>
+            </ul>
+            <a class="join-link" href="#admission">To Join Apply Now</a>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-img">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1000&auto=format&fit=crop" alt="">
+            <a href="#admission">Apply Now</a>
+          </div>
+          <div class="course-content">
+            <h3>Interior Styling Short Course</h3>
+            <ul>
+              <li>Duration 3 Months</li>
+              <li>Space Styling</li>
+              <li>Design Presentation</li>
+            </ul>
+            <a class="join-link" href="#admission">To Join Apply Now</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- COUNTERS -->
+  <section class="counter-section">
+    <div class="container counter-grid">
+      <div><h3 data-count="12">0</h3><p>Courses</p></div>
+      <div><h3 data-count="15000">0</h3><p>Students</p></div>
+      <div><h3 data-count="95">0</h3><p>Placement %</p></div>
+      <div><h3 data-count="28">0</h3><p>Years Legacy</p></div>
+    </div>
+  </section>
+
+  <!-- PLACEMENTS -->
+  <section class="placements" id="placements">
+    <div class="container">
+      <div class="center-head">
+        <span class="section-kicker">Our Placements</span>
+        <h2>Student Career Success</h2>
+        <p>IEC focuses on career confidence through portfolio building, industry exposure, internships and placement support.</p>
+      </div>
+
+      <div class="placement-grid">
+        <div class="placement-card">
+          <img src="iec-video-thumbnail.jpg" alt="">
+          <h3>Fashion Designer</h3>
+          <p>IEC Graduate</p>
+        </div>
+        <div class="placement-card">
+          <img src="s1.jpg" alt="">
+          <h3>Fashion Stylist</h3>
+          <p>IEC Graduate</p>
+        </div>
+        <div class="placement-card">
+          <img src="s2.jpg" alt="">
+          <h3>Interior Designer</h3>
+          <p>IEC Graduate</p>
+        </div>
+        <div class="placement-card">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800&auto=format&fit=crop" alt="">
+          <h3>Brand Creator</h3>
+          <p>IEC Graduate</p>
+        </div>
+      </div>
+
+      <div class="view-more-wrap">
+        <a href="#placements" class="btn btn-primary">View More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="center-head">
+        <span class="section-kicker">Our Team</span>
+        <h2>Experienced Creative Mentors</h2>
+      </div>
+
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=900&auto=format&fit=crop" alt="">
+          <h3>Ms. Shailaja Adhikary</h3>
+          <p>Founder / Creative Leadership</p>
+          <a href="#team">Read More →</a>
+        </div>
+        <div class="team-card">
+          <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=900&auto=format&fit=crop" alt="">
+          <h3>Fashion Faculty</h3>
+          <p>Design Mentor</p>
+          <a href="#team">Read More →</a>
+        </div>
+        <div class="team-card">
+          <img src="f1.jpg" alt="">
+          <h3>Interior Faculty</h3>
+          <p>Interior Design Mentor</p>
+          <a href="#team">Read More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="center-head">
+        <span class="section-kicker">Photo Gallery</span>
+        <h2>Creative Life & Events at IEC</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=800&auto=format&fit=crop" alt="">
+        <img src="img4.webp" alt="">
+        <img src="eve1.webp" alt="">
+        <img src="eve2.webp" alt="">
+        <img src="eve3.webp" alt="">
+        <img src="img5.webp" alt="">
+        <img src="img6.webp" alt="">
+        <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=800&auto=format&fit=crop" alt="">
+      </div>
+
+      <div class="view-more-wrap">
+        <a href="#gallery" class="btn btn-primary">View More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS + BROCHURE -->
+  <section class="testimonials">
+    <div class="container testimonial-grid">
+      <div class="testimonial-left">
+        <span class="section-kicker">What Our Former Student Say?</span>
+        <h2>IEC is a place where creativity becomes a career.</h2>
+        <p>IEC helps students grow with practical exposure, portfolio development and mentorship.</p>
+
+        <div class="review active">
+          <img src="iec-video-thumbnail.jpg" alt="">
+          <h4>IEC Student</h4>
+          <span>Fashion Graduate</span>
+          <p>“IEC gave me confidence, creative direction and a professional portfolio.”</p>
+        </div>
+
+        <div class="review">
+          <img src="s1.jpg" alt="">
+          <h4>IEC Graduate</h4>
+          <span>Interior Designer</span>
+          <p>“The practical training helped me understand real design work.”</p>
+        </div>
+      </div>
+
+      <div class="brochure-form">
+        <h3>Download Brochure Now!</h3>
+        <input type="text" placeholder="Name *">
+        <input type="email" placeholder="Email *">
+        <textarea placeholder="Message *"></textarea>
+        <button>Download Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section class="news">
+    <div class="container">
+      <div class="center-head">
+        <span class="section-kicker">News & Events</span>
+        <h2>Latest Events from IEC</h2>
+      </div>
+
+      <div class="news-grid">
+        <article>
+          <img src="eve1.webp" alt="">
+          <div class="news-body">
+            <h3>Admission Open for 2025–26</h3>
+            <p>Kathmandu</p>
+            <span>Read More →</span>
+          </div>
+        </article>
+
+        <article>
+          <img src="eve3.webp" alt="">
+          <div class="news-body">
+            <h3>Fashion Show & Student Showcase</h3>
+            <p>IEC Event</p>
+            <span>Read More →</span>
+          </div>
+        </article>
+
+        <article>
+          <img src="eve2.webp" alt="">
+          <div class="news-body">
+            <h3>Portfolio Shoot Workshop</h3>
+            <p>Student Activity</p>
+            <span>Read More →</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / ADMISSION -->
+  <section class="admission" id="admission">
+    <div class="container admission-grid">
+      <div>
+        <span class="section-kicker">Find Our Location</span>
+        <h2>Start Your Creative Career</h2>
+        <p>Fill the admission form and IEC admissions team will contact you for counselling.</p>
+
+        <div class="contact-info">
+          <p><strong>Phone:</strong> +977 9801836583</p>
+          <p><strong>Email:</strong> info@iecsaf.com</p>
+          <p><strong>Location:</strong> Mandikatar – Miteripul, Kathmandu</p>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact">
+        <h3>Send Us a Message</h3>
+        <input type="text" placeholder="Your Name">
+        <input type="tel" placeholder="Phone Number">
+        <input type="email" placeholder="Email Address">
+        <select>
+          <option>Select Course</option>
+          <option>Fashion & Marketing Diploma-12 Months/6 Months</option>
+          <option>Interior & Product Design-12 Months Diploma</option>
+          <option>Short Course</option>
+        </select>
+        <textarea placeholder="Message"></textarea>
+        <button type="button">Send your message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- PLACEMENT COMPANIES -->
+  <section class="companies">
+    <div class="container">
+      <h2>Our Placement Companies</h2>
+      <div class="company-row">
+        <span>Fashion TV Nepal</span>
+        <span>House of Fashion</span>
+        <span>Design Hub Kathmandu</span>
+        <span>Fashion Asia</span>
+        <span>Creative Production House</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <img src="iec-logo.png" alt="IEC Logo" class="footer-logo">
+        <p>IEC School of Art & Fashion is one of Nepal’s leading institutes for fashion and interior design education.</p>
+        <div class="socials">
+          <a href="#">f</a>
+          <a href="#">i</a>
+          <a href="#">▶</a>
+          <a href="#">in</a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#about">About Us</a>
+        <a href="#news">News</a>
+        <a href="#placements">Placements</a>
+        <a href="#gallery">Awards</a>
+        <a href="#team">Join Us</a>
+      </div>
+
+      <div>
+        <h4>Quick Contact</h4>
+        <p>+977 9801836583</p>
+        <p>info@iecsaf.com</p>
+        <p>Mandikatar – Miteripul, Kathmandu</p>
+      </div>
+
+      <div>
+        <h4>Subscribe to our newsletter</h4>
+        <div class="newsletter">
+          <input type="email" placeholder="Your email">
+          <button>Subscribe</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright-row">
+
+  <div class="copyright">
+    © Copyright IEC School of Art & Fashion. All Rights Reserved.
+  </div>
+
+  <div class="partner-strip">
+
+    <a
+      href="https://fabulousmedia.in/"
+      target="_blank"
+      class="partner-logo"
+    >
+      <img src="fabulous-logo.png" alt="FabulousMedia">
+    </a>
+
+    <span class="partner-divider"></span>
+
+    <a
+      href="https://gocommercially.com/"
+      target="_blank"
+      class="partner-logo"
+    >
+      <img src="gocommercially-logo.png" alt="GoCommercially">
+    </a>
+
+  </div>
+
+</div>
+  </footer>
+
+<a class="whatsapp" href="https://api.whatsapp.com/send?phone=9779801836583" target="_blank">
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
